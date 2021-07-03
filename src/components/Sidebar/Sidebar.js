@@ -11,7 +11,7 @@ const Sidebar = ({ show, setShowSidebar }) => {
             <ul className="nav flex-column" id="nav_accordion">
                 <span className="mt-3 ml-4">Main Menu</span>
                 <li className="nav-item">
-                <NavLink className="nav-link " to="/dashboard" style={{color: 'black'}}>
+                <NavLink className="nav-link " to="/dashboard" style={{color: 'rgb(36, 36, 36)'}}>
                     <div className="row sidebar-row">
                         <div className="col-3 sidebar-icon">
                             <HomeOutlinedIcon></HomeOutlinedIcon>
@@ -27,7 +27,7 @@ const Sidebar = ({ show, setShowSidebar }) => {
                 </li>
 
                 <li className="nav-item">
-                <NavLink className="nav-link active" to="/email" style={{color: 'black'}}>
+                <NavLink className="nav-link active" to="/email" style={{color: 'rgb(36, 36, 36)'}}>
                     <div className="row sidebar-row">
                         <div className="col-3 sidebar-icon">
                             <MailOutlineIcon></MailOutlineIcon>
@@ -45,7 +45,7 @@ const Sidebar = ({ show, setShowSidebar }) => {
 
 
                 <li className="nav-item">
-                <NavLink className="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item2" to="/chat" style={{color: 'black'}}>
+                <NavLink className="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item2" to="/chat" style={{color: 'rgb(36, 36, 36)'}}>
                     <div className="row sidebar-row">
                         <div className="col-3 sidebar-icon">
                             <HomeOutlinedIcon></HomeOutlinedIcon>
@@ -68,7 +68,7 @@ const Sidebar = ({ show, setShowSidebar }) => {
                 </li>
 
                 <li className="nav-item">
-                <NavLink className="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item1" to="/ecommerce" style={{color: 'black'}}>
+                <NavLink className="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item1" to="/ecommerce" style={{color: 'rgb(36, 36, 36)'}}>
                     <div className="row sidebar-row">
                         <div className="col-3 sidebar-icon">
                             <HomeOutlinedIcon></HomeOutlinedIcon>

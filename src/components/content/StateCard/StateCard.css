@@ -1,0 +1,46 @@
+.infoCardSection{
+    background-color:#fff;
+    border-radius:10px;
+    height:160px;
+    /* width: 376px */
+}
+.statCard-text{
+    font-size: 0.7rem;
+}
+.percentage{
+    font-weight: bold;
+}
+.network-bar{
+    width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.network-bar span{
+    width: 100%;
+    height: 100%;
+    background: rgb(199, 225, 247);    
+    display: block;
+    margin: 0 1px;
+}
+.network-bar span:first-of-type {
+    height:40%;
+  }
+.network-bar span:nth-of-type(2) {
+    height:30%;
+  }
+  .network-bar span:nth-of-type(3) {
+    height:50%;
+  }
+  .network-bar span:nth-of-type(4) {
+    height:20%;
+  }
+  .network-bar span:nth-of-type(5) {
+    height:65%;
+    background: rgb(84, 169, 243);  
+  }
+  .network-bar span:nth-of-type(6) {
+    height:30%;
+  }
+  .network-bar span:last-of-type {
+    height:10%;
+  }
