@@ -2,6 +2,7 @@
     height: 74px;
     background-color:#fff;
     z-index: 1;
+    /* position: sticky; */
 }
 .header-image{
     font-size: 2rem;

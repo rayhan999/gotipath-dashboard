@@ -12,7 +12,7 @@ import './Navbar.css';
 
 const Navbar = ({ setShowSidebar, show }) => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light shadow">
+        <nav className="navbar navbar-expand-lg navbar-light shadow sticky-top">
             <div className="container-fluid">
                 <div className="nav-header d-flex justify-content-between align-items-center">
                     <div className="col-2">

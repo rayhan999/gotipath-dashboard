@@ -12,7 +12,7 @@ const Dashboard = () => {
 
                 <Sidebar show={showSidebar} setShowSidebar={setShowSidebar}></Sidebar>
 
-                <div className="flex-grow-1">
+                <div className="flex-grow-1 pl-4 pr-4">
                     <Content></Content>
                 </div>
 

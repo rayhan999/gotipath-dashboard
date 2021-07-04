@@ -8,4 +8,5 @@
   align-items: stretch;
   /* perspective: 1500px; */
   background: #ebebeb;
+  /* overflow-x: hidden; */
 }
