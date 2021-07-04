@@ -24,10 +24,11 @@ const Sidebar = ({ show, setShowSidebar }) => {
                             </div>
                         </div>
                     </NavLink>
+                    
                 </li>
 
                 <li className="nav-item">
-                    <NavLink className="nav-link active" to="/email" style={{ color: 'rgb(36, 36, 36)' }}>
+                <NavLink className="nav-link active" to="/email" style={{ color: 'rgb(36, 36, 36)' }}>
                         <div className="row sidebar-row">
                             <div className="col-3 sidebar-icon">
                                 <MailOutlineIcon></MailOutlineIcon>
@@ -60,9 +61,9 @@ const Sidebar = ({ show, setShowSidebar }) => {
                         </div>
                     </NavLink>
                     <ul id="menu_item2" className="submenu collapse" data-bs-parent="#nav_accordion">
-                        <li><NavLink className="nav-link" to="#">Submenu item 1 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 5 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 1 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 5 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
 
                     </ul>
                 </li>
@@ -83,10 +84,10 @@ const Sidebar = ({ show, setShowSidebar }) => {
                         </div>
                     </NavLink>
                     <ul id="menu_item1" className="submenu collapse" data-bs-parent="#nav_accordion">
-                        <li><NavLink className="nav-link" to="#">Submenu item 4 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 5 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 4 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 5 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
                     </ul>
                 </li>
                 <li className="nav-item">
@@ -106,7 +107,7 @@ const Sidebar = ({ show, setShowSidebar }) => {
                 </li>
 
                 <li className="nav-item">
-                    <NavLink className="nav-link active" to="/email" style={{ color: 'rgb(36, 36, 36)' }}>
+                    <NavLink className="nav-link" to="/email" style={{ color: 'rgb(36, 36, 36)' }}>
                         <div className="row sidebar-row">
                             <div className="col-3 sidebar-icon">
                                 <MailOutlineIcon></MailOutlineIcon>
@@ -139,9 +140,9 @@ const Sidebar = ({ show, setShowSidebar }) => {
                         </div>
                     </NavLink>
                     <ul id="menu_item2" className="submenu collapse" data-bs-parent="#nav_accordion">
-                        <li><NavLink className="nav-link" to="#">Submenu item 1 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 5 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 1 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 5 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
 
                     </ul>
                 </li>
@@ -162,10 +163,10 @@ const Sidebar = ({ show, setShowSidebar }) => {
                         </div>
                     </NavLink>
                     <ul id="menu_item1" className="submenu collapse" data-bs-parent="#nav_accordion">
-                        <li><NavLink className="nav-link" to="#">Submenu item 4 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 5 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 4 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 5 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
                     </ul>
                 </li>
                 <li className="nav-item">
@@ -185,7 +186,7 @@ const Sidebar = ({ show, setShowSidebar }) => {
                 </li>
 
                 <li className="nav-item">
-                    <NavLink className="nav-link active" to="/email" style={{ color: 'rgb(36, 36, 36)' }}>
+                    <NavLink className="nav-link" to="/email" style={{ color: 'rgb(36, 36, 36)' }}>
                         <div className="row sidebar-row">
                             <div className="col-3 sidebar-icon">
                                 <MailOutlineIcon></MailOutlineIcon>
@@ -218,9 +219,9 @@ const Sidebar = ({ show, setShowSidebar }) => {
                         </div>
                     </NavLink>
                     <ul id="menu_item2" className="submenu collapse" data-bs-parent="#nav_accordion">
-                        <li><NavLink className="nav-link" to="#">Submenu item 1 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 5 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 1 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 5 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
 
                     </ul>
                 </li>
@@ -241,10 +242,10 @@ const Sidebar = ({ show, setShowSidebar }) => {
                         </div>
                     </NavLink>
                     <ul id="menu_item1" className="submenu collapse" data-bs-parent="#nav_accordion">
-                        <li><NavLink className="nav-link" to="#">Submenu item 4 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 5 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
-                        <li><NavLink className="nav-link" to="#">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 4 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 5 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
+                        <li><NavLink className="nav-link" to="/dashboard">Submenu item 6 </NavLink></li>
                     </ul>
                 </li>
 
