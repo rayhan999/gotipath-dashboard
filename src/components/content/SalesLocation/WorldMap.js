@@ -21,7 +21,7 @@ const WorldMap = () => {
         <ComposableMap
             // projectionConfig={{ scale: 205 }}
             width={980}
-            height={551}
+            height={540}
             style={{
                 width: '100%',
                 height: 'auto',

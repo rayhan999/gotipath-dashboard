@@ -1,0 +1,5 @@
+.table{
+    height:200px;
+    /* background-color: red; */
+    overflow-y: scroll;
+}

@@ -1,3 +1,15 @@
 .money{
     font-weight: bold;
 }
+.options{
+    font-size:0.7rem;
+    list-style:none;
+}
+.options li{
+    margin-right: 8px;
+}
+.options li:hover,.activeDevice{
+    color:#4357DB;
+    border-bottom: 2px solid #4357DB;
+    cursor: pointer;
+}
